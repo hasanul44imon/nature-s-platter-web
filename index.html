@@ -1,79 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nature's Platter</title>
-    <!-- google font cdn --> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-   <!-- daisyUI cdn-->
-   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-   <script src="https://cdn.tailwindcss.com"></script>
-<script src="https://cdn.tailwindcss.com"></script>
-<style>
-    .sora-font {
-        font-family: "Sora", serif;
-    }
-</style>
-</head>
-<body class="sora-font">
-<!-- Header Section -->
-    <header>
-        <nav class="md:container mx-auto">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    </ul>
-                  </div>
-                  <a><img src="/c2-assets/logo-header.png" alt=""></a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Product</a></li>
-                      <li><a>Services</a></li>
-                      <li><a>Contract us</a></li>
-                    <li>
-                    </li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn">Login</a>
-                  <a class="btn bg-#179800">Register</a>
-                </div>
-              </div>
-         </nav>
-    </header>
 
-    <section class="hero min-h-screen bg-#white"> 
-        <div class="hero-overlay bg-opacity-60"></div>  <div class="hero-content text-center text-neutral-content">
-            <div class="max-w-3xl">
-                <h1 class="mb-5 text-5xl font-bold">
-                    Freshness You Can<br>
-                    Count On, Prices You'll Love!
-                </h1>
-                <p class="mb-10">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we've got you covered every day!</p>
-                <div><img src="/c2-assets/hero-vegetables.png" alt="hero-vegetables"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature's Platter</title>
+  <!-- google font cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <!-- daisyUI cdn-->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .sora-font {
+      font-family: "Sora", serif;
+    }
+  </style>
+</head>
+
+<body class="sora-font">
+  <!-- Header Section -->
+  <header>
+    <nav class="md:container mx-auto">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            </ul>
+          </div>
+          <a><img src="/c2-assets/logo-header.png" alt=""></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Product</a></li>
+            <li><a>Services</a></li>
+            <li><a>Contract us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end space-x-5">
+          <a class="btn">Login</a>
+          <a class="btn">Register</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="md:container mx-auto">
+
+    <section class="hero min-h-screen">
+      <div class="hero-overlay bg-gradient-to-b from-white to-EFEBE3"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-3xl">
+          <h1 class="mb-5 text-5xl font-semibold">
+            Freshness You Can<br>
+            Count On, Prices You'll Love!
+          </h1>
+          <p class="text-blue-500 mb-10">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we've
+            got you covered every day!</p>
+          <div><img src="/c2-assets/hero-vegetables.png" alt="hero-vegetables"></div>
         </div>
     </section>
+    <section class="md:container mx-auto my-24">
+      <div>
+        <h3 class="text-4xl text-green-500 font-bold mb-10">Services</h3>
+      </div>
+      <div class="cards bg-gradient-EFEBE3 grid grid-cols-1 gap-12 md grid-cols-2 lg:grid-cols-3">
+        <div class="card-1 bg-base-100 shadow-xl">
+          <figure class="px-10 items-center pt-10">
+            <img src="/c2-assets/service.png" alt="" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">24/7 Services</h2>
+            <p>
+              24/7 service is a service that is available 24 hours a day, 7 days a week. It's often used in commerce and
+              industry.
+            </p>
+          </div>
+        </div>
+        <div class="card-2 bg-base-100 shadow-xl">
+          <figure class="px-10 items-center pt-10">
+            <img src="/c2-assets/delivery.png" alt="" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Fast Delivery</h2>
+            <p>
+              The last mile delivery segment, often called the most complex and expensive link in the supply chain, is undergoing a profound digital transformation.
+            </p>
+          </div>
+        </div>
+        <div class="card-3 bg-base-100 shadow-xl">
+          <figure class="px-10 items-center pt-10">
+            <img src="/c2-assets/healthy.png" alt="" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Healthy Products</h2>
+            <p>
+              The last mile delivery segment, often called the most complex and expensive link in the supply chain, is undergoing a profound digital transformation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </body>
+
+
+    <section>
+      <div class="bg-base-200 p-10">
+        <div class="container mx-auto">
+            <h2 class="text-5xl text-green-500 font-bold mb-4">Popular Products</h2>
+    
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    
+                <div class="box bg-primary text-primary-content">
+                    <div class="box-body">
+                        <h2 class="box-title">30% off</h2>
+                        <p>Discover a world of treats, toys, and essentials handpicked for</p>
+                        <div class="box-actions">
+                            <button class="btn btn-outline">Buy Now</button>
+                        </div>
+                    </div>
+                    <figure><img src="/c2-assets/vegetable-offer.png" alt="Image"/></figure> </div>
+    
+                <div class="box bg-base-100 shadow-xl">
+                    <div class="box-body">
+                        <div class="flex justify-between items-center">
+                            <div class="badge badge-outline">4.5</div>
+                        </div>
+                        <h2 class="box-title">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                        <div class="card-actions justify-end"> </div>
+                    </div>
+                </div>
+    
+                <div class="box bg-base-100 shadow-xl">
+                    <div class="card-body">
+                         <div class="flex justify-between items-center">
+                            <div class="badge badge-outline">4.5</div>
+                        </div>
+                        <h2 class="box-title">Tomato 500 g</h2>
+                        <p>$39.99</p>
+                        <div class="box-actions justify-end"> </div>
+                    </div>
+                </div>
+    
+                <div class="box bg-base-100 shadow-xl">
+                    <div class="box-body">
+                         <div class="flex justify-between items-center">
+                            <div class="badge badge-outline">4.5</div>
+                        </div>
+                        <h2 class="box-title">Potato 1 KG</h2>
+                        <p>$39.99</p>
+                        <div class="box-actions justify-end"> </div>
+                    </div>
+                </div>
+    
+                <div class="box bg-base-100 shadow-xl">
+                    <div class="box-body">
+                         <div class="flex justify-between items-center">
+                            <div class="badge badge-outline">4.5</div>
+                        </div>
+                        <h2 class="box-title">Tomato 500 g</h2>
+                        <p>$39.99</p>
+                        <div class="box-actions justify-end"> </div>
+                    </div>
+                </div>
+    
+                <div class="box bg-base-100 shadow-xl">
+                    <div class="card-body">
+                         <div class="flex justify-between items-center">
+                            <div class="badge badge-outline">4.5</div>
+                        </div>
+                        <h2 class="box-title">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                        <div class="box-actions justify-end"> </div>
+                    </div>
+                </div>
+    
+                <div class="box bg-base-100 shadow-xl">
+                    <div class="box-body">
+                         <div class="flex justify-between items-center">
+                            <div class="badge badge-outline">4.5</div>
+                        </div>
+                        <h2 class="box-title">Tomato 500 g</h2>
+                        <p>$39.99</p>
+                        <div class="box-actions justify-end"> </div>
+                    </div>
+                </div>
+    
+                <div class="box bg-base-100 shadow-xl">
+                    <div class="box-body">
+                         <div class="flex justify-between items-center">
+                            <div class="badge badge-outline">4.5</div>
+                        </div>
+                        <h2 class="box-title">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                        <div class="box-actions justify-end"> </div>
+                    </div>
+                </div>
+    
+                <div class="box bg-base-100 shadow-xl">
+                    <div class="box-body">
+                         <div class="flex justify-between items-center">
+                            <div class="badge badge-outline">4.5</div>
+                        </div>
+                        <h2 class="box-title">Potato 1 KG</h2>
+                        <p>$39.99</p>
+                        <div class="box-actions justify-end"> </div>
+                    </div>
+                </div>
+    
+                <div class="box bg-base-100 shadow-xl">
+                    <div class="box-body">
+                         <div class="flex justify-between items-center">
+                            <div class="badge badge-outline">4.5</div>
+                        </div>
+                        <h2 class="box-title">Potato 1 KG</h2>
+                        <p>$39.99</p>
+                        <div class="box-actions justify-end"> </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    </section>
+  </main>
+
+    
+</body>
+
 </html>
