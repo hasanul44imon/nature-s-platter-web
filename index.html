@@ -53,18 +53,18 @@
   </header>
   <main class="md:container mx-auto">
 
-    <section class="hero min-h-screen">
-      <div class="hero-overlay bg-gradient-to-b from-white to-EFEBE3"></div>
-      <div class="hero-content text-center text-neutral-content">
+    <section class=" bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+      <div class="hero-overlay "></div>
+      <div class="hero-content text-center">
         <div class="max-w-3xl">
           <h1 class="mb-5 text-5xl font-semibold">
-            Freshness You Can<br>
-            Count On, Prices You'll Love!
+            Freshness <span class="text-green-500">You Can<br>
+            Count</span> On, Prices You'll Love!
           </h1>
           <p class="text-blue mb-10">Shop your daily essentials at unbeatable prices. From fresh produce to pantry
             staples, we've
             got you covered every day!</p>
-          <div><img src="/c2-assets/hero-vegetables.png" alt="hero-vegetables"></div>
+          <div><img src="/c2-assets/hero-vegetables.png" alt="hero-vegetables" class="rounded-xl"></div>
         </div>
     </section>
     <section class="md:container mx-auto my-24">
@@ -113,7 +113,7 @@
 
 
 
-    <section class=" lg:py-[140px] px-5 md:bg-secondary">
+    <section class=" lg:py-[140px] bg-[#EFEBE3] px-5 md:bg-secondary">
       <div class="max-w-[1320px] mx-auto">
           <h2 class="lg:pb-12 pb-8 text-green-500 font-display lg:text-4xl text-2xl">Popular Products</h2>
           <div class="lg:flex gap-6">
@@ -246,12 +246,12 @@
           <h2 class="lg:pb-12 pb-8 font-display text-green-500 lg:text-4xl text-2xl">Arrival & Offers</h2>
           <div class="lg:flex gap-6 max-lg:space-y-5">
               <div
-                  class="lg:w-3/5  h-[334px] md:h-[480px] bg-gradient-to-r from-[#115414] to-[#26BA2C] rounded-xl py-[38px] px-[34px] md:py-[137px] md:px-[88px] relative">
+                  class="lg:w-3/5 h-[334px] md:h-[480px] bg-gradient-to-r from-[#115414] to-[#26BA2C] rounded-xl py-[40px] px-[32px] md:py-[137px] md:px-[88px] relative">
                   <img src="./c2-assets/dawat-logo.png" alt="">
-                  <h3 class="text-white font-display text-3xl max-lg:text-2xl mb-2 max-md:mb-0">Cook Exotic Dishes
+                  <h3 class="text-white font-display text-2xl max-lg:text-2xl mb-2 max-md:mb-0">Cook Exotic Dishes
                   </h3>
-                  <p class="font-display text-[56px] leading-[73px] text-white max-md:text-white max-md:text-[40px] max-md:leading-[64px]">
-                      UP to 20% OFF</p>
+                  <p class="font-display text-[56px] leading-[50px] text-white max-md:text-white max-md:text-[20px] max-md:leading-[64px]">
+                      UP to <span class="font-bold">20% OFF</span></p>
                   <img src="./c2-assets/dawat-mock-up.png" alt=""
                       class="absolute right-0 bottom-0 md:max-h-[480px] max-h-[268px] max-md:max-w-[214px]">
               </div>
@@ -271,6 +271,60 @@
   </section>
 
   </main>
+  <footer>
+      <div class="bg-[#EFEBE3] p-5 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-8 max-w-5xl mx-auto">
+
+        <div class="md:w-1/2">
+          <img src="./c2-assets/vegetable-busket.png" alt="Grocery Basket" class="max-w-full h-auto rounded-lg">
+        </div>
+      
+        <div class="md:w-1/2 text-center md:text-left">
+          <h2 class="text-3xl font-bold mb-4">Get Grocery News!</h2>
+          <p class="text-lg mb-6">Exclusive training tips, tricks, product deals and more.</p>
+          <div class="flex flex-col md:flex-row gap-4">
+            <input type="email" placeholder="Enter email" class="input input-bordered w-full md:w-auto flex-grow">
+            <button class="btn btn-primary bg-[#179800]">Subscribe</button>
+          </div>
+        </div>
+      
+      </div>
+
+       <div class="absolute top-0 left-0 w-full relative">
+        <div class="flex items-center justify-center h-full">
+    </div>
+    
+      <footer class="bg-green-500 text-base-content">  <div class="py-12 px-8 md:px-16 bg-neutral text-neutral-content">
+          <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+    
+            <div class="mb-6 md:mb-0">
+              <div class="flex items-center">
+                <img src="./c2-assets/logo-footer.png" alt="Nature's Platter Logo" class="h-8 mr-2">
+                <span class="text-xl font-bold">Nature's Platter</span>
+              </div>
+              <p class="mt-2 text-sm">Discover a world of treats, toys, and essentials handpicked for your furry friends.</p>
+            </div>
+    
+            <div>
+              <ul class="flex flex-col md:flex-row gap-6">
+                <li><a href="" class="hover:text-primary">Product</a></li>
+                <li><a href="" class="hover:text-primary">Services</a></li>
+                <li><a href="" class="hover:text-primary">Contact Us</a></li>
+              </ul>
+            </div>
+    
+            <div>
+              <div class="flex gap-4">
+                <a href="" class="text-2xl hover:text-primary"><i class="fab fa-facebook"></i></a>
+                <a href="" class="text-2xl hover:text-primary"><i class="fab fa-instagram"></i></a>
+                <a href="" class="text-2xl hover:text-primary"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </footer>
+    </div>
+  </footer>
 
 
 </body>
