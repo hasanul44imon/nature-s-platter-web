@@ -12,6 +12,7 @@
   <!-- daisyUI cdn-->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/21d8b6e0f7.js" crossorigin="anonymous"></script>
   <style>
     .sora-font {
       font-family: "Sora", serif;
@@ -55,25 +56,28 @@
 
     <section class="md:container mx-auto">
       <div class="hero-overlay bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] ">
-      <div class="hero-content text-center">
-        <div class="max-w-3xl">
-          <h1 class="mb-5 text-5xl font-semibold">
-            Freshness <span class="text-green-500">You Can<br>
-            Count</span> On, Prices You'll Love!
-          </h1>
-          <p class="text-blue mb-10">Shop your daily essentials at unbeatable prices. From fresh produce to pantry
-            staples, we've
-            got you covered every day!</p>
-          <div><img src="c2-assets/hero-vegetables.png" alt="hero-vegetables" class="rounded-xl"></div>
+        <div class="hero-content text-center">
+          <div class="max-w-3xl">
+            <h1 class="mb-5 text-5xl font-semibold">
+              Freshness <span class="text-green-500">You Can<br>
+                Count</span> On, Prices You'll Love!
+            </h1>
+            <p class="text-blue mb-10">Shop your daily essentials at unbeatable prices. From fresh produce to pantry
+              staples, we've
+              got you covered every day!</p>
+            <div><img src="c2-assets/hero-vegetables.png" alt="hero-vegetables" class="rounded-xl"></div>
+            <svg class="size-20 animate-bounce" viewBox="0 0 24 24">
+              <path fill="green" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 
+              0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />  </svg>
+          </div>
         </div>
-      </div>
     </section>
     <section class="md:container mx-auto my-24">
       <div>
         <h3 class="text-4xl text-green-500 font-bold mb-10">Services</h3>
       </div>
-      <div class="cards bg-gradient-EFEBE3 grid grid-cols-1 gap-12 md grid-cols-2 lg:grid-cols-3">
-        <div class="card-1 bg-gray-300 shadow-xl">
+      <div class="cards grid grid-cols-1 gap-12 md grid-cols-2 lg:grid-cols-3">
+        <div class="card-1 bg-[#EFEBE3] rounded-xl shadow-xl">
           <figure class="px-10 flex justify-center pt-10">
             <img src="./c2-assets/service.png" alt="" class="rounded-xl" />
           </figure>
@@ -85,7 +89,7 @@
             </p>
           </div>
         </div>
-        <div class="card-2 bg-gray-300 shadow-xl">
+        <div class="card-2 bg-[#EFEBE3] rounded-xl shadow-xl">
           <figure class="px-10 flex justify-center pt-10">
             <img src="./c2-assets/delivery.png" alt="" class="rounded-xl" />
           </figure>
@@ -97,7 +101,7 @@
             </p>
           </div>
         </div>
-        <div class="card-3 bg-gray-300 shadow-xl">
+        <div class="card-3 bg-[#EFEBE3] rounded-xl shadow-xl">
           <figure class="px-10 flex justify-center pt-10">
             <img src="./c2-assets/healthy.png" alt="" class="rounded-xl" />
           </figure>
@@ -114,27 +118,29 @@
 
 
 
-    <section class="md:container mx-auto my-24 p-5px bg-[#EFEBE3] px-5 md:bg-secondary">
-      <div class="max-w-[1320px] mx-auto">
-          <h2 class="lg:pb-12 pb-8 text-green-500 font-display lg:text-4xl text-2xl">Popular Products</h2>
-          <div class="lg:flex gap-6">
-              <div
-                  class="pt-[51px] pl-8 pr-[58px] max-lg:pt-[43px] max-lg:pl-6 max-lg:pr-10 bg-[#53DB3A-2C751F] rounded-[10px] lg:max-w-[424px] h-[340px] md:h-[402px] max-lg:mb-6  relative">
-                  <h3 class="text-black font-display text-3xl max-lg:text-2xl">30% off</h3>
-                  <p class="py-5 text-text-2">Discover a world of treats, toys, and essentials handpicked for  </p>
-                  <button
-                      class="text-xl px-7 py-2 border-[1px] border-white rounded-lg bg-white cursor-pointer hover:bg-transparent transition-all max-lg:text-[16px]">Buy
-                      Now</button>
-                  <img src="./c2-assets/vegetable-offer.png" alt=""
-                      class="absolute bottom-0 -right-2 max-lg:w-[205px] max-lg:h-[260px]">
+    <section class=" mx-auto my-24 bg-[#EFEBE3]  md:bg-secondary">
+      <div class="max-w-[1320px] mx-auto md:container">
+        <h2 class="lg:pb-12 pb-8 text-green-500 font-bold py-10 pt-5px font-display lg:text-4xl text-2xl">Popular Products</h2>
+        <div class="lg:flex gap-6">
+          <div
+            class="pt-[51px] pl-8 pr-[58px] max-lg:pt-[43px] max-lg:pl-6 max-lg:pr-10 bg-[#53DB3A] rounded-[10px] lg:max-w-[580px] h-[340px] md:h-[402px] max-lg:mb-6  relative">
+            <h3 class="text-black font-display text-3xl max-lg:text-2xl">30% off</h3>
+            <p class="py-5 text-text-2">Discover a world of treats, toys, and essentials handpicked for </p>
+            <button
+              class="text-xl px-7 py-2 border-[1px] border-white rounded-lg bg-white cursor-pointer hover:bg-transparent transition-all max-lg:text-[16px]">Buy
+              Now</button>
+            <img src="./c2-assets/vegetable-offer.png" alt=""
+              class="absolute bottom-0 -right-2 max-lg:w-[205px] max-lg:h-[260px]">
 
-              </div>
+          </div>
 
-              <div class="grid w-full grid-cols-2 md:grid-cols-3 grid-row gap-12">
+          <div class="grid w-full grid-cols-2 md:grid-cols-3 grid-row gap-12">
 
             <div class="box bg-base-100 shadow-xl">
-              <div class="box-body-1">
-                <img src="./c2-assets/onion.png" alt="">
+              <div class="box-body-1 flex">
+                <img src="./c2-assets/onion.png" alt="" class="w-[75px] bg-[#EFEBE3] md:w-[75px]">
+                <div class="grid-row">
+                <i class="fa-solid fa-star text-[#FFC107] max-md:text-[10px]"></i>
                 <div class="flex justify-between items-center">
                   <div class="badge badge-outline">4.5</div>
                 </div>
@@ -142,10 +148,10 @@
                 <p>$39.99</p>
                 <div class="card-actions justify-end"> </div>
               </div>
-            </div>
+            </div></div>
 
             <div class="box bg-base-100 shadow-xl">
-              <div class="card-body-2">
+              <div class="box-body-2">
                 <img src="./c2-assets/tomato.png" alt="">
                 <div class="flex justify-between items-center">
                   <div class="badge badge-outline">4.5</div>
@@ -239,45 +245,45 @@
                 <div class="box-actions justify-end"> </div>
               </div>
             </div>
-        </div>
+          </div>
     </section>
 
-    <section class="py-[54px] lg:py-[140px] px-5">
-      <div class="max-w-[1320px] mx-auto">
-          <h2 class="lg:pb-12 pb-8 font-display text-green-500 lg:text-4xl text-2xl">Arrival & Offers</h2>
-          <div class="lg:flex gap-6 max-lg:space-y-5">
-              <div
-                  class="lg:w-3/5 h-[334px] md:h-[480px] bg-gradient-to-r from-[#115414] to-[#26BA2C] rounded-xl py-[40px] px-[32px] md:py-[137px] md:px-[88px] relative">
-                  <img src="./c2-assets/dawat-logo.png" alt="">
-                  <h3 class="text-white font-display text-2xl max-lg:text-2xl mb-2 max-md:mb-0">Cook Exotic Dishes
-                  </h3>
-                  <p class="font-display text-[56px] leading-[50px] text-white max-md:text-white max-md:text-[20px] max-md:leading-[64px]">
-                      UP to <span class="font-bold">20% OFF</span></p>
-                  <img src="./c2-assets/dawat-mock-up.png" alt=""
-                      class="absolute right-0 bottom-0 md:max-h-[480px] max-h-[268px] max-md:max-w-[214px]">
-              </div>
-              <div
-                  class="lg:w-2/5 h-[334px] md:h-[480px] bg-gradient-to-r from-[#115414] to-[#26BA2C] rounded-xl py-[38px] px-[34px] md:py-[55px] md:px-[50px] relative">
-                  <img src="./c2-assets/india-gate-logo.png" alt="">
-                  <h3 class="text-white font-display text-3xl max-lg:text-2xl mb-2 max-md:mb-0">World’s No.1 Rice
-                  </h3>
-                  <p
-                      class="font-display text-white text-[30px] leading-[73px] max-md:text-[40px] max-md:leading-[64px]">
-                      UP to <span class="font-bold">40% OFF</span></p>
-                  <img src="./c2-assets/india-gate-mock-up.png" alt=""
-                      class="absolute right-0 bottom-0 max-h-[392px] max-md:max-h-[273px]">
-              </div>
+    <section class="mx-auto max-w-[1320px] py-10">
+      <div class="max-w-[1320px] mx-auto ">
+        <h2 class="lg:pb-12 pb-8 text-green-500 font-bold lg:text-4xl text-2xl">Arrival & Offers</h2>
+        <div class="lg:flex gap-6 max-lg:space-y-5">
+          <div
+            class="lg:w-3/5 h-[334px] md:h-[480px] bg-gradient-to-r from-[#115414] to-[#26BA2C] rounded-xl py-[40px] px-[32px] md:py-[137px] md:px-[88px] relative">
+            <img src="./c2-assets/dawat-logo.png" alt="">
+            <h3 class="text-white font-display text-2xl max-lg:text-2xl mb-2 max-md:mb-0">Cook Exotic Dishes
+            </h3>
+            <p
+              class="font-display text-[56px] leading-[50px] text-white max-md:text-white max-md:text-[20px] max-md:leading-[64px]">
+              UP to <span class="font-bold">20% OFF</span></p>
+            <img src="./c2-assets/dawat-mock-up.png" alt=""
+              class="absolute right-0 bottom-0 md:max-h-[480px] max-h-[268px] max-md:max-w-[214px]">
           </div>
+          <div
+            class="lg:w-2/5 h-[334px] md:h-[480px] bg-gradient-to-r from-[#115414] to-[#26BA2C] rounded-xl py-[38px] px-[34px] md:py-[55px] md:px-[50px] relative">
+            <img src="./c2-assets/india-gate-logo.png" alt="">
+            <h3 class="text-white font-display text-3xl max-lg:text-2xl mb-2 max-md:mb-0">World’s No.1 Rice
+            </h3>
+            <p class="font-display text-white text-[30px] leading-[73px] max-md:text-[40px] max-md:leading-[64px]">
+              UP to <span class="font-bold">40% OFF</span></p>
+            <img src="./c2-assets/india-gate-mock-up.png" alt=""
+              class="absolute right-0 bottom-0 max-h-[392px] max-md:max-h-[273px]">
+          </div>
+        </div>
       </div>
-  </section>
+    </section>
 
-  <section class="bg-gradient-to-b from-transparent from-50% to-[#179800] to-0%">
+    <section class="bg-gradient-to-b from-transparent from-50% to-[#179800] to-0%">
       <div class="bg-[#EFEBE3] p-5 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-8 max-w-5xl mx-auto">
 
         <div class="md:w-1/2">
           <img src="./c2-assets/vegetable-busket.png" alt="Grocery Basket" class="max-w-full h-auto rounded-lg">
         </div>
-      
+
         <div class="md:w-1/2 text-center md:text-left">
           <h2 class="text-3xl font-bold mb-4">Get Grocery News!</h2>
           <p class="text-lg mb-6">Exclusive training tips, tricks, product deals and more.</p>
@@ -286,13 +292,13 @@
             <button class="btn btn-primary bg-[#179800]">Subscribe</button>
           </div>
         </div>
-      
+
       </div>
     </section>
   </main>
 
-    <footer class="bg-[#179800] md:py-[140px] pt-[112px] pb-[56px] px-5">  
-      <div class="py-12 px-8 md:px-16 bg-[#179800] text-white">
+  <footer class="bg-[#179800] md:py-[140px] pt-[112px] pb-[56px] px-5">
+    <div class="py-12 px-8 md:px-16 bg-[#179800] text-white">
       <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
 
         <div class="mb-6 md:mb-0">
@@ -300,25 +306,26 @@
             <img src="c2-assets/logo-footer.png" alt="Nature's Platter Logo" class="h-8 mr-2">
             <span class="text-xl font-bold">Nature's Platter</span>
           </div>
-          <p class="mt-2 text-sm">Discover a world of treats, toys, and essentials handpicked for your furry friends.</p>
+          <p class="mt-2 text-sm">Discover a world of treats, toys, and essentials handpicked for your furry friends.
+          </p>
         </div>
 
         <div class="max-md:mb-[36px]">
           <ul class="lg:text-[20px] lg:leading-7 md:space-y-8 space-y-5">
-              <li><a href="" class="hover:text-accent transition-all">Products</a></li>
-              <li><a href="" class="hover:text-accent transition-all">Services</a></li>
-              <li><a href="" class="hover:text-accent transition-all ">Contact us</a></li>
+            <li><a href="" class="hover:text-accent transition-all">Products</a></li>
+            <li><a href="" class="hover:text-accent transition-all">Services</a></li>
+            <li><a href="" class="hover:text-accent transition-all ">Contact us</a></li>
           </ul>
-      </div>
-      <div class="block md:mt-auto">
+        </div>
+        <div class="block md:mt-auto">
           <p class="pb-3 font-medium lg:pb-6 text-text">Follow Us</p>
           <ul class="flex gap-7">
-              <li><a href=""><i class="fa-brands fa-facebook hover:text-accent transition-all"></i></a></li>
-              <li><a href=""><i class="fa-brands fa-instagram hover:text-accent transition-all"></i></a></li>
-              <li><a href=""><i class="fa-brands fa-x-twitter hover:text-accent transition-all"></i></a></li>
-              <li><a href=""><i class="fa-brands fa-linkedin hover:text-accent transition-all"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-facebook hover:text-accent transition-all"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram hover:text-accent transition-all"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-x-twitter hover:text-accent transition-all"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin hover:text-accent transition-all"></i></a></li>
           </ul>
-      </div>
+        </div>
 
       </div>
     </div>
